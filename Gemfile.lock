@@ -27,8 +27,6 @@ GEM
     language_server-protocol (3.17.0.3)
     minitest (5.22.2)
     mutex_m (0.2.0)
-    net-http (0.4.1)
-      uri
     parallel (1.24.0)
     parser (3.3.0.5)
       ast (~> 2.4.1)
@@ -64,13 +62,14 @@ GEM
       rubocop (>= 1.33.0, < 2.0)
       rubocop-ast (>= 1.31.1, < 2.0)
     ruby-progressbar (1.13.0)
+    ruby2_keywords (0.0.5)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.5.0)
-    uri (0.13.0)
 
 PLATFORMS
   arm64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   faraday
